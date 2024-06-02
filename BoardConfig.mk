@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/motorola/guamp
+DEVICE_PATH := device/motorola/guam
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := bengal

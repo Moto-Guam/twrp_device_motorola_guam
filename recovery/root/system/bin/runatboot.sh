@@ -15,7 +15,6 @@ insmod $module_path/chipone_tddi_mmi.ko
 insmod $module_path/nova_0flash_mmi.ko
 
 # Load Needed Modules
-insmod $module_path/sensors_class.ko
 insmod $module_path/utags.ko
 insmod $module_path/exfat.ko
 insmod $module_path/mmi_annotate.ko

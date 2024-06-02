@@ -22,18 +22,18 @@ $(call inherit-product-if-exists, $(SRC_TARGET_DIR)/product/embedded.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
-# Inherit from guamp device
-$(call inherit-product, device/motorola/guamp/device.mk)
+# Inherit from guam device
+$(call inherit-product, device/motorola/guam/device.mk)
 
 # Inherit some common TWRP stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Release name
-PRODUCT_RELEASE_NAME := guamp
+PRODUCT_RELEASE_NAME := guam
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := guamp
-PRODUCT_NAME := twrp_guamp
+PRODUCT_DEVICE := guam
+PRODUCT_NAME := twrp_guam
 PRODUCT_BRAND := motorola
-PRODUCT_MODEL := moto g(9)
+PRODUCT_MODEL := moto e7 plus
 PRODUCT_MANUFACTURER := motorola
