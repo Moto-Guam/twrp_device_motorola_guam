@@ -1,0 +1,6 @@
+/lib/modules/chipone_tddi_mmi.ko:
+/lib/modules/himax_v3_mmi.ko:
+/lib/modules/ili9882_mmi.ko:
+/lib/modules/himax_v3_mmi_hx83102d.ko:
+/lib/modules/nova_0flash_mmi.ko:
+/lib/modules/exfat.ko:

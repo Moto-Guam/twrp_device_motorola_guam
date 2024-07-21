@@ -1,0 +1,4 @@
+# Aliases extracted from modules themselves.
+alias of:N*T*Cchipone-tddi chipone_tddi_mmi
+alias of:N*T*Cchipone-tddiC* chipone_tddi_mmi
+alias fs-exfat exfat
